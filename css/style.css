@@ -1,0 +1,27 @@
+*::after, *::before, * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.tab-content {
+    height: 500px;
+    padding: 20px;
+}
+
+.tab-item {
+    width: 18%;
+    background-color: aqua;
+    margin: 28px;
+    padding: 20px 36px;
+    cursor: pointer;
+}
+
+.active {
+    border-radius: 12px 12px 0 0;
+    background-color: crimson;
+    color: white;
+    font-family: monospace;
+}
